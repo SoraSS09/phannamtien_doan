@@ -486,6 +486,29 @@ ul li a:hover {
     color: #fc7070;
 }
 
+.btn-top {
+    text-align: center;
+    background-repeat: no-repeat;
+    bottom: 20px;
+    cursor: pointer;
+    display: none;
+    outline: medium none;
+    position: fixed;
+    right: 20px;
+    z-index: 99;
+    background: #ffdc22;
+    border: 1px solid #ffdc22;
+    color: #ffffff;
+    padding: 8px 10px;
+    font-size: 15px;
+    box-sizing: border-box;
+    vertical-align: middle;
+    text-transform: uppercase;
+}
+.btn-top:hover {
+    background: white;
+    color: #ffdc22;
+}
 @media (max-width: 767px) {
     .top-header {
         padding: 0px;
